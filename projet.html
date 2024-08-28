@@ -1,75 +1,182 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template de Site Web</title>
-
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 2.6;
-      }
-
-      nav {
-        background: black;
-        padding: 20px;
-        text-align: center;
-        font-size: 20px;
-        display: flex;
-        justify-content: center; /* Centers the items horizontally */
-        align-items: center; /* Centers the items vertically */
-      }
-
-      nav a {
-        color: #fff;
-        margin: 20px;
-        text-decoration: none;
-      }
-
-      #logo-nav {
-        margin-right: 20px;
-        width: 100px;
-        margin-right: 100px; /* Adds some space between the logo and the links */
-      }
-
-      main {
-        padding: 20px;
-        background: #f4f4f4;
-      }
-
-      footer {
-        background: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px 0;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-      }
-    </style>
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <title>royale cars</title>
+    <link href="thumbnail_image.png" rel="icon">
+</head>
+<body>
     <nav>
-      <img id="logo-nav" src="thumbnail_image.png" alt="logo" />
-      <a href="#about">À propos</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-      <a href="#login">login</a>
+        <img id="logo-nav" src="thumbnail_image.png" alt="logo" />
+        <a href="#aa">about</a>
+        <a href="#a   ">Services</a>
+        <a href="buy.html">buy</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" id="loginButton">login</a>
     </nav>
 
     <main>
-      <h2>Section principale</h2>
-      <p>
-        Ceci est une simple template pour un site web. Vous pouvez ajouter votre
-        contenu ici.
-      </p>
+      
+    <div class="hero">
+      <div class="overlay">
+          <h1 id="text-photo">let's find your perfect car</h1>
+          
+        </div>
+      </div>
+<br>
+
+
+
+<div class="container" id="aa">
+  <div class="text-section">
+      <h1>who are we?</h1>
+      <p>Welcome to our car dealership, royale cars stands out with a rich selection of new and used vehicles that meet the highest standards of performance and safety. Whether you’re looking for an elegant sedan or a robust SUV, we have the vehicle that suits your needs and lifestyle. Come visit our website and be captivated by unmatched expertise in the automotive field.</p>
+  </div>
+
+
+  <div class="image-section">
+      <img src="1-1.jpg" alt="Image Description">
+  </div>
+</div>
+<center><h1>Our Services</h1></center>
+<main>
+  <main>
+    <section class="services">
+   <div class="service-box" id="a">
+     <img src="car collection.jpeg" alt="Luxury Car Rental">
+     <h3>Luxury Car Rental</h3>
+     <p>Discover our exclusive selection of luxury cars available for rent for your special events or business trips. Enjoy an elegant and comfortable drive.</p>
+     <a href="#" class="btn">Learn More</a>
+   </div>
+   <div class="service-box">
+     <img src="speed.jpg" alt="costemer sercice">
+     <h3>customer service</h3>
+     <p>Our dedicated customer service team is here to assist you with any inquiries or issues. We are committed to providing exceptional support and ensuring your satisfaction.</p>
+     <a href="#" class="btn">Learn More</a>
+   </div>
+   <div class="service-box">
+     <img src="airport.jpg" alt="Airport Shuttle Service">
+     <h3>Airport Shuttle Service</h3>
+     <p>We offer a reliable and punctual shuttle service for all your trips to and from the airport. Travel with peace of mind in our modern fleet of vehicles.</p>
+     <a href="#" class="btn">Learn More</a>
+   </div>
+   </main>
+
+<center><h1>Here you will find our best sellers</h1></center>
+
+<main>
+ </section>
+ <section class="services">
+  <div class="service-box" id="a">
+    <img src="téléchargement (6).jpeg" alt="Luxury Car Rental">
+    <h3>toyata camry</h3>
+    <p>A reliable and fuel-efficient sedan with a comfortable interior, advanced safety features, and a smooth, quiet ride ideal for daily commuting.    </p>
+    <a href="learn more.html" class="btn">Learn More</a>
+  </div>
+  <div class="service-box">
+    <img src="téléchargement (10).jpeg" alt="costemer sercice">
+    <h3>honda civic</h3>
+    <p>A reliable compact car known for its fuel efficiency, modern styling, and advanced features, making it a popular choice for daily driving.</p>
+    <a href="learn more.html" class="btn">Learn More</a>
+  </div>
+  <div class="service-box">
+    <img src="téléchargement (7).jpeg" alt="Airport Shuttle Service">
+    <h3>bmw serie4</h3>
+    <p>A sleek and sporty sedan that combines dynamic performance, advanced technology, and a premium interior for an engaging driving experience.    </p>
+    <a href="learn more.html" class="btn">Learn More</a>
+
+  </div>
+</section>
+
+
+
+
+        <div class="login-box" id="loginBox">
+            <form id="loginForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password">
+                
+                <button type="submit">Valider</button>
+                
+                <div class="error-message" id="errorMessage">Tous les champs sont requis. Vous avez 3 tentatives.</div>
+            </form>
+        </div>
+
+
     </main>
 
     <footer>
-      <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+        <p>&copy; 2024 Royal Cars. All rights reserved.</p>
+        <p>Contact: royal.cars@gmail.tn | +216.26102095</p>
+        <p>Address: Lac 2, Tunis, Tunisia</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
     </footer>
+
+    <script>
+        // Sélection des éléments
+        const loginButton = document.getElementById('loginButton');
+        const loginBox = document.getElementById('loginBox');
+        const loginForm = document.getElementById('loginForm');
+        const errorMessage = document.getElementById('errorMessage');
+
+        let attempts = 0;
+        const maxAttempts = 3;
+
+        // Affichage de la box de login au clic sur le bouton de la navbar
+        loginButton.addEventListener('click', function() {
+            loginBox.style.display = 'block';
+        });
+
+        // Validation du formulaire
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (email === '' || password === '') {
+                attempts++;
+                errorMessage.style.display = 'block';
+                if (attempts >= maxAttempts) {
+                    alert('Vous avez dépassé le nombre maximum de tentatives.');
+                    loginBox.style.display = 'none';
+                    attempts = 0; // Réinitialiser les tentatives pour la prochaine fois
+                }
+            } else {
+                errorMessage.style.display = 'none';
+                alert('Connexion réussie!');
+                loginBox.style.display = 'none';
+                attempts = 0; // Réinitialiser les tentatives après succès
+                // Vous pouvez ajouter ici votre code de connexion
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+</footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
   </body>
 </html>

@@ -1,0 +1,401 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2.6;
+  }
+
+  nav {
+    background: black;
+    display: flex;
+    justify-content: space-between; /* Spreads out the logo and nav links */
+    align-items: center; /* Centers items vertically */
+    padding: 0  20px; /* Optional padding for spacing */
+  }
+  
+  .logo-container {
+    flex: 2; /* Ensures the logo stays on the left */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-start; /* Aligns links to the left */
+    flex: 3; /* Allows space for links to spread out */
+  }
+  
+  .nav-links a {
+    color: #fff;
+    margin-left: 20px; /* Space between the links */
+    text-decoration: none;
+  }
+  #logo-nav {
+    width: 80px;
+    height: 80px;
+  }
+  
+
+ 
+
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    color: #f2d61d; /* or a color that matches your brand */
+  }
+
+
+
+  /* Container for the image and text */
+.hero {
+    position: relative;
+    background-image: url('photo\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+}
+
+/* Overlay to ensure text is visible */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive text styling */
+.overlay h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 1.5rem;
+}
+ #text-photo {
+    margin-top: -25%;
+
+}
+#body {
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-section {
+    flex: 70%; /* 70% of the container width */
+    padding: 20px;
+}
+
+.image-section {
+    flex: 30%; /* 30% of the container width */
+}
+
+.image-section img {
+    width: 150%;
+    height: auto;
+    display: block;
+}
+main {
+    padding: 20px;
+    background: #f4f4f4;}
+    .services {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding: 50px 0;
+background-color: #f4f4f4;
+}
+
+
+
+.service-box {
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+max-width: 300px;
+}
+
+.service-box img {
+max-width: 100%;
+border-radius: 8px 8px 0 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2.6;
+}
+
+nav {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#logo-nav {
+    margin-right: 20px;
+    width: 100px;
+    margin-right: 100px;
+}
+
+main {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.service-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+.service-box img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.service-box h3 {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+.service-box .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.service-box .btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+   
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #f2d61d;
+}
+
+/* Styles pour la boîte de login */
+.login-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.login-box input[type="email"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.buy-section {
+  width: 100%;
+  padding: 20px;
+}
+
+.car-item {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.car-image {
+  flex: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.car-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.car-description {
+  flex: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.car-price {
+  flex: 20%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.car-buy {
+  flex: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.buy-button:hover {
+  background-color: #218838;
+}
